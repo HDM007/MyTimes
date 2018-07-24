@@ -63,6 +63,17 @@ column.small{
   padding-top: 116px;
 }
 
+.stories{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+
+.story{
+  display: flex;
+  flex-direction: column;
+}
+
 .image-content{
   font-family: Georgia;
   font-weight: bold;
@@ -86,7 +97,7 @@ column.small{
 }
 
 div {
-  border: 1px solid black;
+  display: block;
 }
 
 .lead-story .image-content {
@@ -104,9 +115,6 @@ div {
   color: black;
 }
 
-.image-content span {
-  font-family: Georgia;
-  font-size: 40px;
-  color: white;
-  font-weight: bold;
+.stories .text-content{
+  height: 250px;
 }
