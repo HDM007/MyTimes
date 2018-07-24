@@ -9,6 +9,7 @@ header{
   font-size: 14px;
   font-weight: bold;
   border: black solid 1px;
+  background-color: white;
 }
 
 .logo{
@@ -27,8 +28,41 @@ nav span{
   padding: 20px 30px;
 }
 
+nav a{
+  color: black;
+}
+
 .logo span{
   display: block;
   color: mediumaquamarine;
   padding-left: 20px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+column.large {
+  width: 630px;
+}
+
+column.medium {
+  width: 300px;
+}
+
+column.small{
+  width: 240px;
+}
+
+.content{
+  display: flex;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
+}
+
+div {
+  border: 1px solid black;
 }
