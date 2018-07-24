@@ -12,6 +12,12 @@ header{
   background-color: white;
 }
 
+.text-content{
+  font-family: georgia;
+  font-size: 17px;
+  color: black;
+}
+
 .logo{
   display: flex;
   align-items: center;
@@ -76,6 +82,8 @@ column.small{
 }
 
 .image-content{
+  display: flex;
+  flex-direction: column;
   font-family: Georgia;
   font-weight: bold;
   color: white;
@@ -83,6 +91,7 @@ column.small{
   height: 300px;
   margin-top: 15px;
   text-align: center;
+  justify-content: center;
 }
 
 .fall-cancelled .image-content{
@@ -106,7 +115,6 @@ div{
   width: 630px;
   margin-top: 0;
   font-size: 40px;
-  text-align: left;
 }
 
 
@@ -118,4 +126,47 @@ div{
 
 .stories .text-content{
   height: 250px;
+}
+
+.news-bites{
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.news-bites .bite{
+  display: block;
+  padding: 11px 20px;
+  border-bottom: 1px solid black;
+  background-color:whitesmoke;
+  font-family:verdana;
+  font-size:12px;
+  color:dimgray;
+  text-align: left;
+  font-weight:normal;
+}
+
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 325px;
+  background-color: mediumaquamarine;
+  margin: auto;
+  font-family: verdana;
+  font-size: 12px;
+}
+
+.title {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+footer nav{
+  display: inline-block;
+  padding-left: 5px;
 }
