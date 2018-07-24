@@ -72,6 +72,7 @@ column.small{
 .story{
   display: flex;
   flex-direction: column;
+  width: 300px;
 }
 
 .image-content{
@@ -96,7 +97,7 @@ column.small{
   background-image:url("../Images/CatCEO.png");
 }
 
-div {
+div{
   display: block;
 }
 
