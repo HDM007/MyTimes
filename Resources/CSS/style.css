@@ -63,6 +63,50 @@ column.small{
   padding-top: 116px;
 }
 
+.image-content{
+  font-family: Georgia;
+  font-weight: bold;
+  color: white;
+  font-size: 30px;
+  height: 300px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.fall-cancelled .image-content{
+  background-image: url("../Images/FallSeason.png");
+}
+
+.Research .image-content{
+  background-image:url("../Images/HipsterCameraman.png");
+}
+
+.Cat .image-content{
+  background-image:url("../Images/CatCEO.png");
+}
+
 div {
   border: 1px solid black;
+}
+
+.lead-story .image-content {
+  background-image: url("../Images/MainStory.png");
+  width: 630px;
+  margin-top: 0;
+  font-size: 40px;
+  text-align: left;
+}
+
+
+.narrative {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.image-content span {
+  font-family: Georgia;
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
 }
